@@ -61,7 +61,7 @@ which are identical across the four tables except for the ID column being Census
 the two census_tract_data tables and County Census ID for the two county_data tables.
 ![image](https://github.com/SadakhyaNarnur/US-Accidents-Severity-Classification/assets/111921205/722879b1-33f8-4265-a716-3a6a65d0bc31)
 
-**Apriori algorithm to provide recommendations based on the association rules:**
+## Apriori algorithm to provide recommendations based on the association rules:
 Apriori Algorithm:
 The Apriori algorithm is a classic algorithm used in data mining to find frequent item
 sets in a large dataset. It is based on the principle that if an item set is frequent, then all its
@@ -107,7 +107,7 @@ The output of the TransactionEncoder can be fed into an Apriori algorithm to gen
 frequent itemsets. Based on the frequent itemsets hence generated we produce the association
 rules with ‘lift’ as a metric and sort based on confidence.
 
-**Decision tree classifier for severity classification with SMOTE**
+## Decision tree classifier for severity classification with SMOTE:
 Decision tree Classifier:
 A form of machine learning algorithm called a decision tree classifier is used for
 supervised learning tasks like classification. Each internal node represents a decision based
@@ -162,7 +162,7 @@ that the model was unable to learn from the nuances of the features like the pre
 bump, signal, and other categorical features which it considered of less importance. Hence to
 propose an approach we experiment with the BERT model next.
 
-**RoBERTa for classifying the severity of the accidents into four categories**
+## RoBERTa for classifying the severity of the accidents into four categories:
 Robustly Optimized Bidirectional Encoder Representations from Transformers
 Approach:
 Facebook AI Research created RoBERTa, a pre-trained transformer-based neural
